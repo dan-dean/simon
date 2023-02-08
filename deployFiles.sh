@@ -24,4 +24,4 @@ mkdri -p services/${service}/public
 ENDSSH
 
 printf "\n----> copying the distribution package to the target.\n"
-scp -r -i "$key" * ubuntu@$hostname:services/$sevice/public
+scp -r -i "$key" * ubuntu@$hostname:services/$service/public
